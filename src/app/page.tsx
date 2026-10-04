@@ -5,7 +5,7 @@ import { ShowcaseSection } from "../components/showcase";
 import { collectSources, SourcesSection } from "../components/sources";
 import { Hero, Topbar } from "../components/topbar";
 
-const ATLAS_URL = process.env.NEXT_PUBLIC_ATLAS_URL || "http://localhost:3000";
+const ATLAS_URL = process.env.NEXT_PUBLIC_ATLAS_URL || "https://hakatton-web.vercel.app";
 
 function botUsername() {
   const raw = process.env.NEXT_PUBLIC_TELEGRAM_BOT_USERNAME;
