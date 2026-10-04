@@ -1,0 +1,9 @@
+{
+  "name": "@hakaton/theme",
+  "private": true,
+  "version": "0.1.0",
+  "exports": {
+    "./tokens.css": "./tokens.css"
+  },
+  "files": ["tokens.css"]
+}
